@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"path"
+	"runtime"
 	"strconv"
 	"strings"
 	"time"
-	"path"
-	"runtime"
 )
 
 var watchedPath = path.Join(".", "source")
